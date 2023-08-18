@@ -29,7 +29,6 @@ function App() {
 
   const { data, isLoading, error } = useFetchPokemonList(debouncedQuery, {
     page: nextPage2,
-    chaos: true,
   });
 
   const {
